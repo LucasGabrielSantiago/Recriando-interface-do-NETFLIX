@@ -1,0 +1,27 @@
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:700px){
+    header .container{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 290px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 700px;
+    }
+}
+@media screen and (max-width:450px){
+    .descricao{
+        margin-left: 5px;
+        width: 300px;
+        font-size: 12px;
+    }
+}
